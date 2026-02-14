@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AI_Sentiment__c</fullName>
+    <description>Field used by the Agentforce to classify the customer sentiment based on his initial messages</description>
+    <label>AI Sentiment</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Neutral</fullName>
+                <default>false</default>
+                <label>Neutral</label>
+            </value>
+            <value>
+                <fullName>Frustrated</fullName>
+                <default>false</default>
+                <label>Frustrated</label>
+            </value>
+            <value>
+                <fullName>Angry</fullName>
+                <default>false</default>
+                <label>Angry</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
